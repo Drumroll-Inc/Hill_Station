@@ -1,0 +1,101 @@
+.SectionLayoutsContainer{
+   display: flex;
+   padding: 100px;
+   flex-wrap: wrap;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   background-color: #1E3D31;
+}
+
+.SectionLayoutsHeader{
+   padding: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.SectionLayoutsH1{
+   font-size: 40px;
+   color: #F3E7C8;
+   font-weight: 400;
+   padding: 10px;
+   cursor: pointer;
+   letter-spacing: 5px;
+   line-height: 57.59px;
+}
+
+.SectionLayoutsParagh{
+   width: 730px;
+   padding: 10px;
+   cursor: pointer;
+   color: #F3E7C8;
+   font-weight: 400;
+   margin-bottom: 40px;
+   letter-spacing: 0.48px;
+   line-height: 20.67px;
+
+
+}
+
+.SectionLayoutsPaents{
+   gap: 15px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+
+.SectionLayoutsPaentsItem{
+   gap: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+.SectionLayoutsPaentsList1{
+   gap: 30px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.SectionLayoutsPaentsImage{
+   width: 260px;
+   cursor: pointer;
+}
+
+.SectionLayoutsPaentsPara{
+   width: 260px;
+   font-size: 15px;
+   font-weight: 600;
+   cursor: pointer;
+   color: #A88750;
+   line-height: 18.97px;
+   letter-spacing: 0.48px;
+}
+
+.SectionLayoutsPaentsList2{
+   gap: 30px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+
+.SectionLayoutsPaentsIcon{
+   width: 30px;
+   cursor: pointer;
+}
+
+.SectionLayoutsPaentsIconParagrah{
+   color: #AAAAAA;
+   font-weight: 400;
+   font-size: 14px;
+   cursor: pointer;
+   margin-right: 20px;
+}

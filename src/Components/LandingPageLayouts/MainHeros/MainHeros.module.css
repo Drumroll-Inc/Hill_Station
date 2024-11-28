@@ -1,0 +1,81 @@
+.MainHerosContainer{
+   display: flex;
+   padding: 100px;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   background-color: #1E3D31;
+}
+
+.MainHerosChild{
+   gap: 80px;
+   padding: 50px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.MainHerosText{
+   gap: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.MainHerosH1{
+   font-size: 40px;
+   font-weight: 400;
+   color: #F3E7C8;
+}
+
+.MainHerosParagraph{
+   width: 530px;
+   font-weight: 200;
+   font-size: 15px;
+   line-height: 30.31px;
+   color: #F3E7C8;
+}
+
+.MainHerosVideoContainer {
+   width: 530px;
+   height: 300px; 
+   position: relative;
+ }
+
+ .BackgroundVideo {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   cursor: pointer; 
+ }
+ 
+ 
+ .MainHerosChild {
+   position: relative;
+   z-index: 1;
+   text-align: center;
+ }
+
+ .PlayPauseButton {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   z-index: 2;
+   color: #fff;
+   border: none;
+   opacity: 0.8; 
+   outline: none;
+   font-size: 16px;
+   cursor: pointer;
+   padding: 10px 20px;
+   border-radius: 50%;
+   transform: translate(-50%, -50%);
+   background-color: rgba(0, 0, 0, 0.6);
+   transition: opacity 0.3s, background-color 0.3s;
+ }
+ 
+ .PlayPauseButton:hover {
+   background-color: rgba(0, 0, 0, 0.8);
+ }
+ 

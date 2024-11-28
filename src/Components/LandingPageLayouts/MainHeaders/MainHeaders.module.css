@@ -1,0 +1,127 @@
+.MainHeadersContainers {
+   width: 100%;
+   height: 100vh;
+   overflow: hidden;
+   position: relative;
+ }
+ 
+ .MainHeadersChild {
+   z-index: 2;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   object-fit: cover;
+   text-align: center;
+   position: relative;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+
+ .MainHeaderMainlogo{
+    cursor: pointer;
+ }
+ 
+ .MainHeadersChildList {
+   color: #ffffff;
+   text-align: center;
+   margin-top: 30px;
+ }
+ 
+ .Countdown {
+   gap: 40px;
+   display: flex;
+   margin-bottom: 80px;
+   justify-content: center;
+ }
+ 
+ .TimeBlock {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .TimeNumber {
+   font-size: 40px;
+   line-height: 1;
+   color: #F3E7C8;
+   font-size: 80px;
+   cursor: pointer;
+   font-weight: 400;
+ }
+ 
+ .TimeLabel {
+   font-size: 20px;
+   color: #F3E7C8;
+   margin-top: 10px;
+   cursor: pointer;
+   letter-spacing: 2px;
+ }
+ 
+ .SignUpContainer {
+   gap: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .SignUpIcon{
+   width: 350px;
+   cursor: pointer;
+ }
+ 
+ .SignUpInput {
+   width: 300px;
+   padding: 10px;
+   outline: none;
+   cursor: pointer;
+   font-size: 16px;
+   color:  #F3E7C8;
+   border-radius: 5px;
+   border: 1px solid  #F3E7C8;
+   background-color: #F3E7C8;
+ }
+ 
+ .SignUpInput::placeholder {
+   color: rgba(255, 255, 255, 0.6);
+ }
+ 
+ .SignUpButton {
+   border: none;
+   color: #ffffff;
+   cursor: pointer;
+   font-size: 14px;
+   font-weight: bold;
+   padding: 10px 20px;
+   border-radius: 5px;
+   background-color: #ff9800;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .SignUpButton:hover {
+   background-color: #e68a00;
+ }
+ 
+ .BackgroundVideos {
+   top: 0;
+   left: 0;
+   z-index: 1;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   position: absolute;
+   box-shadow: inset 0 0 50px 20px rgba(0, 0, 0, 0.8);
+}
+
+.VideoOverlay {
+   top: 0;
+   left: 0;
+   z-index: 2;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   border-radius: 20px;
+   pointer-events: none; 
+   background-color: rgba(0, 0, 0, 0.5); 
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0.8));
+}

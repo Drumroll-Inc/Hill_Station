@@ -1,0 +1,155 @@
+.FootersContainer {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 100px;
+   margin: 0 auto;
+   border-radius: 8px;
+   align-items: center;
+   justify-content: center;
+   background-color: #F3E7C8;
+   justify-content: space-around;
+ }
+ 
+.FoooterChildItems{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+.FooterContainerItems{
+   gap: 15px;
+   display: flex;
+   flex-wrap: wrap;
+   width: 550px;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+
+.LogoIcon{
+   width: 450px;
+   align-self: flex-start;
+}
+
+.FooterParagrah{
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 34.8px;
+   color: #727272;
+}
+
+.FooterIcon{
+   font-size: 12px;
+}
+
+.FooterNums{
+   gap: 5px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+.FooterNumbers{
+    font-size: 14px;
+    font-weight: 400;
+    color: #1E3D31;
+}
+
+.FooterNumberss{
+   font-size: 14px;
+   font-weight: 400;
+   color: #AD7218;
+}
+
+.FooterIconContainer{
+   gap: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+
+.FooterLogonItems{
+   gap: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 10px;
+}
+
+.FooterLogos{
+   color: #AD7218;
+   font-size: 15px;
+   margin-top: 10px;
+}
+
+ .Form {
+   width: 100%;
+   max-width: 500px;
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .InputRow {
+   display: flex;
+   gap: 10px;
+   margin-bottom: 15px;
+ }
+ 
+ .Input {
+   flex: 1;
+   outline: none;
+   padding: 15px;
+   font-size: 14px;
+   color: #E7E9EF;
+   border-radius: 8px;
+   border: 1px solid #1E3D31;
+   background-color: #1E3D31;
+ }
+ 
+ .Textarea {
+   width: 106%;
+   border: none;
+   outline: none;
+   height: 150px;
+   padding: 10px;
+   font-size: 14px;
+   color: #E7E9EF;
+   border-radius: 8px;
+   margin-bottom: 15px;
+   border: 1px solid #1E3D31;
+   background-color: #1E3D31;
+ }
+
+ .Button {
+   width: 200px;
+   border: none;
+   padding: 15px;
+   font-size: 16px;
+   color: #1E3D31;
+   cursor: pointer;
+   font-weight: bold;
+   text-align: center;
+   border-radius: 8px;
+   background-color: #A88750;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .Button:hover {
+   background-color:  #A88750;
+ }
+ 
+ .FooterLists{
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   background-color: #F3E7C8;
+ }
+
+ .FooterP{
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 34.8px;
+   color: #727272;
+ }
